@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Falcon</title>
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="Capture.jpg" alt="logo"></div>
+            <li><a href="#home" style="color:black">Home</a></li>
+            <li><a href="#Class" style="color:black">Class</a></li>
+            <li><a href="#Courses" style="color:black">Courses</a></li>
+            <li><a href="#Contact" style="color:black">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf"></div>
+            <h3 style="color:rgb(240, 232, 232)" class="text-big">The perfect future guidence for you is here <br><br>
+            </h3><br><br>
+            <p class="text-small" style="color:rgb(19, 18, 18)">
+                Why you are so confused for your future we will help to get the best fielf according to your interest.
+                The end of your search is here.
+            </p>
+            <div class="secondHalf"></div>
+        </div>
+    </section>
+    <hr>
+    <br><br>
+    <section class="section Class " id="Class">
+        <div class="paras">
+            <h2 class="text-center">Class</h2>
+            <p class="sectionSubTag text-small">In which class you are<br>
+                <a href="http://127.0.0.1:5500/9th.html" target="_blank" style="color:black;font-size:20px">I am in
+                    class 9th</a>
+                <br><a href="http://127.0.0.1:5500/10th.html" target="_blank" style="color:black;font-size:20px">I am in
+                    class 10th</a>
+                <br><a href="http://127.0.0.1:5500/biochem.html" target="_blank" style="color:black;font-size:20px">I am
+                    in class 11th</a>
+                <br><a href="http://127.0.0.1:5500/biotech.html" target="_blank" style="color:black;font-size:20px">I am
+                    in class 12th</a>
+            </p>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <hr><br><br>
+    <section class="Courses" id="Courses">
+        <h2 class="text-center">Courses</h2>
+        <div class="links">
+            <a href="http://127.0.0.1:5500/fashion.html" target="_blank" style="color:black;font-size:20px">About
+                Fashion Designing</a>
+            <br><a href="http://127.0.0.1:5500/Bakery.html" target="_blank" style="color:black;font-size:20px">About
+                Bakery</a>
+            <br><a href="http://127.0.0.1:5500/biochem.html" target="_blank" style="color:black;font-size:20px">About
+                Biochemical engineering</a>
+            <br><a href="http://127.0.0.1:5500/biotech.html" target="_blank" style="color:black;font-size:20px">About
+                Biotechnology</a>
+            <br><a href="http://127.0.0.1:5500/depression.html" target="_blank" style="color:black;font-size:20px">About
+                Depression Counselling</a>
+            <br><a href="http://127.0.0.1:5500/ethanography.html" target="_blank"
+                style="color:black;font-size:20px">About Ethnography</a>
+            <br><a href="http://127.0.0.1:5500/hotel.html" target="_blank" style="color:black;font-size:20px">About
+                Hotel Management</a>
+            <br><a href="http://127.0.0.1:5500/leather.html" target="_blank" style="color:black;font-size:20px">About
+                Leather Designing</a>
+            <br><a href="http://127.0.0.1:5500/product.html" target="_blank" style="color:black;font-size:20px">About
+                Product Designer</a>
+            <br><a href="http://127.0.0.1:5500/shoe.html" target="_blank" style="color:black;font-size:20px">About Shoe
+                Designer</a>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <hr>
+    <section class="Contact" id="Contact">
+        <h2 class="text-center">Contact</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10">Eloborate your concern</textarea>
+            <button class="btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer>
+        <p class="text-footer">Copyright &copy: 2027-All rights Reserved</p>
+    </footer>
+    <script src="css/js/resp.js">
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "30px 10px";
+                document.getElementById("logo").style.fontSize = "25px";
+            } else {
+                document.getElementById("navbar").style.padding = "80px 10px";
+                document.getElementById("logo").style.fontSize = "35px";
+            }
+        }
+    </script>
+</body>
+
+</html>
